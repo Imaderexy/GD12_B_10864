@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         val document = Document(pdfDocument)
         pdfDocument.defaultPageSize = com.itextpdf.kernel.geom.PageSize.A4
         document.setMargins(5f, 5f, 5f, 5f)
-        @SuppressLint("UseCompatLoadingForDrawables") val d = getDrawable(R.drawable.groot)
+        @SuppressLint("UseCompatLoadingForDrawables") val d = getDrawable(R.drawable.persona)
 
         val bitmap = (d as BitmapDrawable)!!.bitmap
         val stream = ByteArrayOutputStream()
